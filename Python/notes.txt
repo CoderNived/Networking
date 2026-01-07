@@ -1,0 +1,58 @@
+IP Address
+a unique string of numbers seperated by a full stop that identifies each computer using the Internet Protocol to communicate overa network.
+range of numbers: 0-255
+no 2 computers can Have same IP Address
+Public and Private IP
+ISP(Vodaphone, Airtel, Jio) WHILE OTHER IS ROUTER WiFi IP
+finding out both IP Address
+Public IP- Google "Whats my IP"
+Private IP - Windows(ipconfig), Linux or Mac (ifconfig)
+Static and Dynamic IP Address
+Static IP adresses never change but Dynamic IP address always keep changing. 
+Restart your computer and see yourself
+
+static-Servers and websites
+Dynamic-Computer and mobile devices
+
+How to find static IP address of a website?
+ping example.com
+
+IP Address- city/state/country
+Port- exact house no.
+
+netstat -a -b -n
+
+Sockets: A socket is one endpoint of a two way communication link between teo programs running on the network. A socket is bond to a port number so that the TCP layer can identify the application that data is detined to be sent to. An endpoint is a combination of an IP address and a port number
+Socket command in Python 
+socket.socket(): Create Socket
+s.bind(host,port): binding port and host
+s.send(): sending a message
+s.listen(): constantly listen to other computer message
+s.recv(): 
+s.close(): Close the socket connection
+
+Direct and Reverse connection
+
+Direct Connection: 
+1. Host/ IP Address +Port
+2. Socket
+How to set up Direct connection in Python
+Problems with Diret Connection
+1. difficult to get IP Address
+2. IP Address is dynamic so it keeps on changing
+3. Even we cannot get regular updates to the dynamic IP Address the computer has bunch of firewalls which mkaes it impossible to get to his com[uter
+Advantages of Direct Connection
+
+Reverse Connection
+how to set up Reverse connection in Python
+Problems with Reverse Connection
+Advantages of Reverse connection
+
+Server:
+1. Remote computer when you can store files or host websites
+2. it has a static IP Address
+3. You need internet to acess this remote computer
+
+Reverse Shell
+give me complete notes of reverse shell tell me how can I built it how can I use it ethically and and practically how can i build this in Python
+
